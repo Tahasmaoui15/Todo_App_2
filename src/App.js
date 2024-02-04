@@ -1,4 +1,14 @@
-import { Button, Flex, Input, Text } from "@chakra-ui/react";
+import {
+  Button,
+  Flex,
+  Input,
+  Tab,
+  TabList,
+  TabPanel,
+  TabPanels,
+  Tabs,
+  Text,
+} from "@chakra-ui/react";
 import React from "react";
 
 const App = () => {
@@ -16,6 +26,17 @@ const App = () => {
               Add Task
             </Button>
           </Flex>
+          <Tabs mt="2%" w="100%">
+            <TabList>
+              <Tab>Incomplete Tasks</Tab>
+              <Tab>Completed Tasks</Tab>
+            </TabList>
+            <TabPanels>
+              <TabPanel>
+                
+              </TabPanel>
+            </TabPanels>
+          </Tabs>
         </Flex>
       </Flex>
     </div>
