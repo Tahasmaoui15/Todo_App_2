@@ -10,8 +10,11 @@ const App = () => {
             Tasks
           </Text>
           <Flex mt="2%">
-            <Input w="30%" />
-            <Button ml={5} bg='blue.400'> Add Task</Button>
+            <Input variant="flushed" placeholder="Add Task" w="30%" />
+            <Button ml={5} bg="blue.400">
+              {" "}
+              Add Task
+            </Button>
           </Flex>
         </Flex>
       </Flex>
